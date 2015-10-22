@@ -5,6 +5,9 @@
 *:after {
   box-sizing: inherit;
 }
+p:nth-child(1){
+  border-top: 3px solid black;
+}
 html,
 body {
   font-size: 18px;
