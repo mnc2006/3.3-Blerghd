@@ -5,6 +5,9 @@
 *:after {
   box-sizing: inherit;
 }
+p:nth-child(1){
+  border-top: 3px solid black;
+}
 html,
 body {
   font-size: 18px;
@@ -16,12 +19,13 @@ body {
 .post {
 }
 .post__header {
-  position: absolute;
+  position: fixed;
   top: 0;
   bottom: 0;
   width: 50%;
-  background-color: #0099FF;
-  color: #FFF;
+  background-image: url('wine-sunset1.jpg');
+  background-size: cover;
+  color: #0000;
 }
 .post__headerNav {
   list-style: none;
